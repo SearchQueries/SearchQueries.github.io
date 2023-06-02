@@ -1,0 +1,9 @@
+html {
+    background-color: black;
+    color: white;
+}
+.curvedTB {
+    border-radius: 10px;
+    height: 25px;
+    width: 200px;
+}
