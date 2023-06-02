@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html>
+
 <body>
     <title>Search</title>
-<link rel="stylesheet" href="style.css">
-<form action="/search" method="get">
-    <script async src="https://cse.google.com/cse.js?cx=0456b735393e54a50">
+    <link rel="stylesheet" href="style.css">
+    <button onclick="copy()">Wanna Break From Ads?</button>
+    <script>
+        function copy() {
+            navigator.clipboard.writeText("Among us");
+        }
     </script>
-    <div class="gcse-search"></div>
-    <label for="search">Search:</label>
-    <input type="text" id="search" name="q">
-    <button type="submit">Search</button>
-  </form>
+    <form action="/search" method="get">
+        <div class="gcse-search"></div>
+        <label for="search">Search:</label>
+        <input type="text" id="search" name="q">
+        <button type="submit">Search</button>
+    </form>
 </body>
+
 </html>
